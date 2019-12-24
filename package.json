@@ -1,0 +1,51 @@
+{
+  "name": "shunting-yard-typescript",
+  "version": "1.0.0",
+  "description": "Simple implementation of Dijkstra's shunting yard algorithm in Typescript",
+  "main": "dist/index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/poteat/shunting-yard-typescript.git"
+  },
+  "keywords": [
+    "shunting",
+    "yard",
+    "typescript",
+    "dijkstra",
+    "parsing",
+    "ts"
+  ],
+  "author": "Michael Poteat <me@mpote.at>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poteat/shunting-yard-typescript/issues"
+  },
+  "homepage": "https://github.com/poteat/shunting-yard-typescript#readme",
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.d.ts.map",
+    "dist/index.js",
+    "dist/index.js.map"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.24",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
+}
