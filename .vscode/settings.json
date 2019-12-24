@@ -1,0 +1,60 @@
+{
+  // Disable VS Code Tracking
+  "telemetry.enableTelemetry": false,
+
+  // Better icons next to folders
+  "workbench.iconTheme": "vscode-icons",
+
+  // Modified view settings to optimize for vertical screen
+  "editor.fontSize": 13.4,
+  "window.zoomLevel": -0.7,
+
+  // Rulers at 80 and 100 for short code compatible with vertical monitors
+  "editor.rulers": [
+      80,
+      100
+  ],
+
+  // Good git settings
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  // Tabs are two (consistent with Prettier)
+  "editor.tabSize": 2,
+
+  // Always update imports when files are moved for TS and JS
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Never confirm operations for Explorer and/or Nautilus file explorers
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Disable default editor auto-formatting so ESlint will work
+  "editor.formatOnSave": false,
+  "javascript.format.enable": false,
+
+  // Enable ESLint auto-formatting on save
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+
+  // Force ESLint to operate on these file extensions
+  "eslint.options": {
+      "extensions": [
+          ".html",
+          ".js",
+          ".ts"
+      ]
+  },
+
+  // Force ESLint to validate languages JS, HTML, TS, and JSON
+  "eslint.validate": [
+      "typescript",
+      "json"
+  ],
+
+  // Enable code action hook for eslint
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+}
